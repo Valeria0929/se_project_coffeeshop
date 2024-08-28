@@ -142,3 +142,8 @@ max-width: 438px;
 ::marker {
 color: #0a2750; 
 }
+
+.iframe-border {
+    border: none;
+  }
+  
