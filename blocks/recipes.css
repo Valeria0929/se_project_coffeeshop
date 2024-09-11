@@ -2,13 +2,16 @@
     color: #fff;
     background-color: #0a2750;
     padding: 100px 80px 215px;
+    background-size: cover;
+    background-position: center;
+
    }
    
    .recipes__title{
     margin: 0 0 24px; 
     font-family: "Inter", "Arial", sans-serif; 
     font-style: normal; 
-    font-weight: 500; 
+    font-weight: 500;
     font-size: 44px; 
     line-height: 52px;  
    }
@@ -26,7 +29,7 @@
    .recipes__videos{
      display: flex;
      justify-content: center;
-     gap: 100px;  
+     gap: 40px;  
    }
    
    .recipes__video-caption {
@@ -37,12 +40,12 @@
     font-weight: 500; 
     font-size: 20px; 
     line-height: 30px;
+    margin: 0;
+    position: relative;
    }
    
-   ::marker {
-   color: #0a2750; 
-   }
-   
-   .iframe-border {
-       border: none;
+
+     .recipes__iframe {
+      width: 560px;
+      height: 315px;
      }
